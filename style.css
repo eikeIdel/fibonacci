@@ -1,0 +1,39 @@
+/*
+Theme Name: Fibbo Test
+Version: 1.0
+Text Domain: fibbo
+Author:eked
+*/
+
+html,
+body,
+div {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  /* height: 100vh;
+  width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame {
+  margin: 600px;
+  /* width: 80%;
+  aspect-ratio: 15/5; */
+  /* border: solid 1px; */
+}
+
+.square {
+  border: 1px solid;
+  position: absolute;
+  box-sizing: border-box;
+  font-size: 5px;
+}
+
+.square.front {
+  z-index: 2;
+}
